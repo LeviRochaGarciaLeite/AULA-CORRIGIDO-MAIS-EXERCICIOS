@@ -24,3 +24,10 @@ Content-Type: application/json
 
 ###
 DELETE {{url}}/1
+
+### GENEROS
+@urlGeneros = http://127.0.0.1:8080/generos
+GET {{urlGeneros}}
+POST {{urlGeneros}} 
+PUT {{urlGeneros}}/1 
+DELETE {{urlGeneros}}/1 
